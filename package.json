@@ -1,5 +1,5 @@
 {
-  "name": "@dmoena/verification-schemas",
+  "name": "@dmoena/verificacion-schemas",
   "version": "1.0.0",
   "description": "Schemas stem-arpegio para modulo verificaion",
   "main": "index.js",
