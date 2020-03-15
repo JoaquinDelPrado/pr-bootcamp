@@ -18,6 +18,13 @@ export interface IDbSelectResponse<T> extends DbResponse {
     data: T[]
 }
 
+export interface IBaseResponse<T> {
+    success: boolean,
+    message?: string,
+    code?: number,
+    data: T
+}
+
 export interface IAsignacionFicha {
     id: number;
     fichaId: number;
