@@ -123,3 +123,9 @@ export interface IUser {
     verificationCode: string,
     cargo: string
 }
+
+export interface IAlarm {
+    id: number;
+    fichaId: number;
+    duration: number;
+  }
