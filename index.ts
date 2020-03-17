@@ -113,6 +113,12 @@ export interface IProfile {
     description?: string
 }
 
+export interface IPrivilege {
+    id: number,
+    name: string,
+    description?: string
+}
+
 export interface IUser {
     id: number,
     name: string,
