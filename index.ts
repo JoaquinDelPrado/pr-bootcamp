@@ -128,4 +128,19 @@ export interface IAlarm {
     id: number;
     fichaId: number;
     duration: number;
-  }
+}
+
+export interface IFicha {
+	id: number,
+	rut_pagador: string,
+	pagador: string,
+	rut_cliente: string,
+	cliente: string,
+	comentario: string,
+	tipo: string,
+	horaregistro: Date
+	// prioridad // await dennis.info() || david.info()
+	// ejecutivo // await dennis.info() || david.info()
+	// visto // await dennis.info() || david.info()
+	// pausado // await dennis.info() || david.info()
+};
