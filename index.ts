@@ -151,4 +151,4 @@ export interface IFicha {
 	// pausado // await dennis.info() || david.info()
 };
 
-type priorityOptions = 1 | 2 | 3;
+export type priorityOptions = 1 | 2 | 3;
