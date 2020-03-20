@@ -151,7 +151,7 @@ export interface IFicha {
 	// pausado // await dennis.info() || david.info()
 };
 
-interface IDebugInsertFichaParams {
+export interface IDebugInsertFichaParams {
     pagador: string,
     rutPagador: string,
     cliente: string,
