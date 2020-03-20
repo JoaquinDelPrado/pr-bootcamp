@@ -151,4 +151,11 @@ export interface IFicha {
 	// pausado // await dennis.info() || david.info()
 };
 
+interface IDebugInsertFichaParams {
+    pagador: string,
+    rutPagador: string,
+    cliente: string,
+    rutCliente: string,
+}
+
 export type priorityOptions = 1 | 2 | 3;
