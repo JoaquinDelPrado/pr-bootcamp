@@ -145,12 +145,12 @@ export interface IFicha {
 	comentario: string,
 	tipo: string,
 	horaregistro: Date,
-    assigned_by: number,
-    asignee: number,
-    ficha_priority: number,
-    seen: number,
-    alarm_ts: Date,
-    alarm_duration: number
+    assigned_by?: number,
+    asignee?: number,
+    ficha_priority?: number,
+    seen?: number,
+    alarm_ts?: Date,
+    alarm_duration?: number
 };
 
 export interface IDebugInsertFichaParams {
