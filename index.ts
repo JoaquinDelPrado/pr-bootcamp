@@ -144,11 +144,13 @@ export interface IFicha {
 	cliente: string,
 	comentario: string,
 	tipo: string,
-	horaregistro: Date
-	// prioridad // await dennis.info() || david.info()
-	// ejecutivo // await dennis.info() || david.info()
-	// visto // await dennis.info() || david.info()
-	// pausado // await dennis.info() || david.info()
+	horaregistro: Date,
+    assigned_by: number,
+    asignee: number,
+    ficha_priority: number,
+    seen: number,
+    alarm_ts: Date,
+    alarm_duration: number
 };
 
 export interface IDebugInsertFichaParams {
