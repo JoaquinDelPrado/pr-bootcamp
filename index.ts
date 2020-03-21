@@ -160,4 +160,9 @@ export interface IDebugInsertFichaParams {
     rutCliente: string,
 }
 
+export interface IDebugAssignProfileParams {
+    userId: number,
+    profileId: number
+}
+
 export type priorityOptions = 1 | 2 | 3;
