@@ -170,4 +170,9 @@ export interface IAssignFichaParams {
     userId: number
 }
 
+export interface ICommentFichaParams {
+    id: number
+    comment: string
+}
+
 export type priorityOptions = 1 | 2 | 3;
