@@ -165,4 +165,9 @@ export interface IDebugAssignProfileParams {
     profileId: number
 }
 
+export interface IAssignFichaParams {
+    id: number
+    userId: number
+}
+
 export type priorityOptions = 1 | 2 | 3;
