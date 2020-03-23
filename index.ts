@@ -150,7 +150,8 @@ export interface IFicha {
     ficha_priority?: number,
     seen?: number,
     alarm_ts?: Date,
-    alarm_duration?: number
+    alarm_duration?: number,
+    num_comentarios?: number
 };
 
 export interface IDebugInsertFichaParams {
