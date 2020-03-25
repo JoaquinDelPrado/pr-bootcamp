@@ -176,4 +176,9 @@ export interface ICommentFichaParams {
     comment: string
 }
 
+export interface IMyIunterface {
+    nombre: string,
+    edad: number
+}
+
 export type priorityOptions = 1 | 2 | 3;
