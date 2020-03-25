@@ -176,4 +176,10 @@ export interface ICommentFichaParams {
     comment: string
 }
 
+export interface IPoto {
+    nombre: string,
+    apellido: string,
+    edad: number
+}
+
 export type priorityOptions = 1 | 2 | 3;
