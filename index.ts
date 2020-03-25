@@ -176,8 +176,9 @@ export interface ICommentFichaParams {
     comment: string
 }
 
-export interface IMyIunterface {
+export interface IPoto {
     nombre: string,
+    apellido: string,
     edad: number
 }
 
